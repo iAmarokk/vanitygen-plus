@@ -221,6 +221,7 @@ Current List of Available Coins for Address Generation
 |PIVX | PIVX | D  |
 |PKB | Parkbyte | P  |
 |PND | Pandacoin | P  |
+|Polis | Polis | P  |
 |POT | Potcoin | P  |
 |PPC | Peercoin | P  |
 |PTC | Pesetacoin | K  |
