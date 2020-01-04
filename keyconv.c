@@ -178,6 +178,7 @@ main(int argc, char **argv)
 					"PIVX : PIVX : D\n"
 					"PKB : Parkbyte : P\n"
 					"PND : Pandacoin : P\n"
+					"Polis : Polis : P\n"
 					"POT : Potcoin : P\n"
 					"PPC : Peercoin : P\n"
 					"PTC : Pesetacoin : K\n"
@@ -1038,6 +1039,14 @@ main(int argc, char **argv)
 					"Decrypting GRLC Address\n");
 					addrtype_opt = 38;
 					privtype_opt = 176;
+					break;
+			}
+			else
+			if (strcmp(optarg, "Polis")== 0) {
+				fprintf(stderr,
+					"Decrypting Polis Address\n");
+					addrtype_opt = 34;
+					privtype_opt = 53;
 					break;
 			}
 			else
